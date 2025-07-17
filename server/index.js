@@ -1,8 +1,8 @@
-const express = require('express');
+import express from 'express';
+import mongoose from 'mongoose';
+import cors from 'cors';
+import dotenv from 'dotenv';
 const app = express();
-const mongoose = require('mongoose');
-const cors = require('cors');
-const dotenv = require('dotenv');
 dotenv.config();
 app.use(cors());
 app.use(express.json());
@@ -16,6 +16,8 @@ const DB= async()=> {
   }
 }
 DB();
+import authRoutes from './routes/authRoutes.js';
+app.use('/api/auth', authRoutes);
 app.listen(port , () => {
   console.log(`Server is running on port ${port}`);
 });
