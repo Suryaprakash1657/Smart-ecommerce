@@ -7,13 +7,14 @@ import LatestCollections from '../../Components/LatestCollections'
 import BestSeller from '../../Components/BestSeller'
 import OurPolicy from '../../Components/OurPolicy'
 import NewsLetterbox from '../../Components/NewsLetterbox'
-
+import ExploreProducts from '../../Components/ExploreProducts'
 function Home() {
   return (
     <div>
         <Hero/>
-        <LatestCollections/>
         <BestSeller/>
+        <LatestCollections/>
+        <ExploreProducts/>
         <OurPolicy/>
         <NewsLetterbox/>
     </div>

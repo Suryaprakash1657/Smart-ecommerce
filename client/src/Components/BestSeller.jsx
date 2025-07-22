@@ -38,7 +38,10 @@ const BestSeller = () => {
       {/* Title */}
       <div className="text-left py-8 text-3xl">
         <Title text1={'Browse By'} text2={'Category'} />
-        <p className="w-18 h-[1px] sm:h-[2px] bg-gray-700 mt-2 mb-4"></p>
+        <div className="flex w-full h-[4px] mt-2 mb-4">
+          <div className="w-1/5 bg-blue-500"></div>  {/* 25% Blue */}
+          <div className="w-4/5 bg-gray-700"></div>  {/* 75% Gray */}
+        </div>
       </div>
 
       {/* Category Buttons */}
@@ -49,7 +52,7 @@ const BestSeller = () => {
             onClick={() => setActiveCategory(category.label)}
             className={`w-28 h-28 flex flex-col items-center justify-center border rounded-lg shadow-sm cursor-pointer transition-all ${
               activeCategory === category.label
-                ? 'bg-red-500 text-white'
+                ? 'bg-red-800 text-white'
                 : 'bg-white text-black hover:bg-gray-100'
             }`}
           >
