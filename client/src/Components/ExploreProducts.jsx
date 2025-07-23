@@ -20,13 +20,13 @@ const previewImages = [
   'src/assets/p_img12.png',
   'src/assets/p_img13.png',
   'src/assets/p_img14.png',
-  'src/assets/p_img15.png',
-  'src/assets/p_img16.png',
-  'src/assets/p_img17.png',
-  'src/assets/p_img18.png',
-  'src/assets/p_img19.png',
-  'src/assets/p_img20.png',
-  'src/assets/p_img21.png',
+  // 'src/assets/p_img15.png',
+  // 'src/assets/p_img16.png',
+  // 'src/assets/p_img17.png',
+  // 'src/assets/p_img18.png',
+  // 'src/assets/p_img19.png',
+  // 'src/assets/p_img20.png',
+  // 'src/assets/p_img21.png',
 ];
 
 function ExploreProducts() {

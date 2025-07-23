@@ -102,32 +102,27 @@ const sortProduct = () => {
             <p className='mb-3 text-sm font-medium' >CATEGORIES</p>
             <div className="flex flex-col gap-2 text-sm font-light text-gray-700">
               <p className='flex gap-2'>
-                <input className='w-3' type="checkbox" value={'Men'} onChange={toggleCategory} />Men
+                <input className='w-3' type="checkbox" value={'Phones'} onChange={toggleCategory} />Phones
               </p>
               <p className='flex gap-2'>
-                <input className='w-3' type="checkbox" value={'Women'} onChange={toggleCategory} />Women
+                <input className='w-3' type="checkbox" value={'Computers'} onChange={toggleCategory} />Computers
               </p>
               <p className='flex gap-2'>
-                <input className='w-3' type="checkbox" value={'Kids'} onChange={toggleCategory} />Kids
+                <input className='w-3' type="checkbox" value={'SmartWatch'} onChange={toggleCategory} />SmartWatch
+              </p>
+              <p className='flex gap-2'>
+                <input className='w-3' type="checkbox" value={'Camera'} onChange={toggleCategory} />Camera
+              </p>
+              <p className='flex gap-2'>
+                <input className='w-3' type="checkbox" value={'Headphones'} onChange={toggleCategory} />Headphones
+              </p>
+              <p className='flex gap-2'>
+                <input className='w-3' type="checkbox" value={'Gaming'} onChange={toggleCategory} />Gaming
               </p>
             </div>
           </div>
 
-          {/* SubCategory Filter*/}
-            <div className={`border border-gray-300 pl-5 py-3 my-5 ${showFilter ? '' : 'hidden'} sm:block `} >
-            <p className='mb-3 text-sm font-medium' >TYPE</p>
-            <div className="flex flex-col gap-2 text-sm font-light text-gray-700">
-              <p className='flex gap-2'>            {/*Do not use'-' in value in input below or raise error or wont work*/}
-                <input className='w-3' type="checkbox" value={'TopWear'}  onChange={toggleSubCategory}/>Top-Wear
-              </p>
-              <p className='flex gap-2'>
-                <input className='w-3' type="checkbox" value={'BottomWear'} onChange={toggleSubCategory} />Bottom-Wear
-              </p>
-              <p className='flex gap-2'>
-                <input className='w-3' type="checkbox" value={'WinterWear'} onChange={toggleSubCategory} />Winter-Wear
-              </p>
-            </div>
-          </div>
+          
 
           </div>
 

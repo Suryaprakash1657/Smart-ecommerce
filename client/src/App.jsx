@@ -11,7 +11,7 @@ import Cart from './Pages/Bookings/Cart'
 import DisplayOrders from './Pages/Bookings/DisplayOrders'
 import Placeorder from './Pages/Bookings/Placeorder'
 import Login from './Pages/Singup/Login'
-
+import ChatAssistant from './Components/ChatAssistant'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
 import Searchbar from './Components/Searchbar'
@@ -52,7 +52,7 @@ function App() {
 
 
       </Routes>
-
+      <ChatAssistant />
       <Footer/>
 
     </div>
@@ -61,4 +61,3 @@ function App() {
 
 export default App
 
-//https://github.com/kalviumcommunity/S82_MOHIT-SAMAL_CAPSTONE-FOREVER.git
